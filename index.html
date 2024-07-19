@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scrpit.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Input Text</h2>
+        <input type="text" id="inputText" placeholder="Enter text">
+        <button id="createButton">Create</button>
+    </div>
+
+    <div class="table-container">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>ID</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                    <th>View</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <input type="text" id="modalInput">
+            <button id="modalSaveButton">Save</button>
+        </div>
+    </div>
+
+ 
+    <script src="./javascripit.js"></script>
+</body>
+</html>
